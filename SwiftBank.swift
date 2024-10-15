@@ -3,7 +3,6 @@
 // Bank struct
 struct SwiftBank {
 
-
   // Bonus rate type property
   static let depositBonusRate = 0.01
 
