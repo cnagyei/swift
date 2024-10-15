@@ -40,6 +40,10 @@ struct SwiftBank {
 
 // Make deposit method
   mutating func makeDeposit(ofAmount depositAmount: Double) {
+    if depositAmount <= 0{
+      print("Cannot make a zero or negative deposit. Please try again!")
+      return
+    }
     let depositWithBonus = finalDepositWithBonus(fromInitialDeposit: depositAmount)
     print("Making a deposit of $\(depositAmount) with a bonus rate. The final amount deposited is \(depositWithBonus)")
 
@@ -62,6 +66,14 @@ struct SwiftBank {
       print("Error: Invalid password. Cannot make withdrawal.")
       return
     }
+    if withdrawalAmount <= 0 {
+      print("Cannot withdraw zero or negative amount. Please try again!")
+      return
+    }
+    if withdrawalAmount > self.balance {
+      print("Cannot withdraw more cash than current balance. Check current balance!")
+      return
+    }
     self.balance -= withdrawalAmount
     print("Making a $\(withdrawalAmount) withdrawal")
   }
@@ -74,11 +86,9 @@ struct SwiftBank {
 
 // Create instance of SwiftBank
 var myAccount = SwiftBank(password: "calbert", initialDeposit: 500)
-myAccount.makeDeposit(ofAmount: 500)
+myAccount.makeDeposit(ofAmount: -500)
 myAccount.displayBalance(usingPassword: "calbert")
 myAccount.makeDeposit(ofAmount: 1000)
 myAccount.displayBalance(usingPassword: "calbert")
-myAccount.makeWithdrawal(ofAmount: 600, password: "calbert")
+myAccount.makeWithdrawal(ofAmount: -5000, password: "calbert")
 myAccount.displayBalance(usingPassword: "calbert")
-
-
