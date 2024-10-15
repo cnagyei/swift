@@ -15,7 +15,7 @@ struct GameView: View {
     
     var body: some View {
         ZStack {
-            mainColor.ignoresSafeArea()
+            mainColor.ignoresSafeArea() // kept same
             VStack {
                 Text("1 / 10")
                     .font(.callout)
