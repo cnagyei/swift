@@ -20,11 +20,7 @@ struct SwiftBank {
 
 // Password verifier
   private func isValid(_ enteredPassword: String) -> Bool {
-    if enteredPassword == self.password {
-      return true
-    } else {
-      return false
-    }
+    return enteredPassword == self.password
   }
  
   // Bank balance property
@@ -46,31 +42,29 @@ struct SwiftBank {
 // Make deposit method
   mutating func makeDeposit(ofAmount depositAmount: Double) {
     let depositWithBonus = finalDepositWithBonus(fromInitialDeposit: depositAmount)
-
     print("Making a deposit of $\(depositAmount) with a bonus rate. The final amount deposited is \(depositWithBonus)")
 
     // Update bank balance
-    balance += depositWithBonus
+    self.balance += depositWithBonus
   }
 
 // Check balance method
   func displayBalance(usingPassword password: String) {
-    if isValid(password) == false {
+    if !isValid(password) {
       print("Error: Invalid password. Cannot retrieve balance")
       return
-    } else {
-      print("Your current balance is $\(balance)")
     }
+    print("Your current balance is $\(self.balance)")
   }
 
 // Make withdrawals method
   mutating func makeWithdrawal(ofAmount withdrawalAmount: Double, password: String) {
-    if isValid(password) == false {
+    if !isValid(password) {
       print("Error: Invalid password. Cannot make withdrawal.")
-    } else {
-      balance -= withdrawalAmount
-      print("Making a $\(withdrawalAmount) withdrawal")
+      return
     }
+    self.balance -= withdrawalAmount
+    print("Making a $\(withdrawalAmount) withdrawal")
   }
 
    // Low balance alert method
@@ -81,29 +75,11 @@ struct SwiftBank {
 
 // Create instance of SwiftBank
 var myAccount = SwiftBank(password: "calbert", initialDeposit: 500)
-print("========")
-
-// Make a deposit
 myAccount.makeDeposit(ofAmount: 500)
-print("========")
-
-// Check balance
 myAccount.displayBalance(usingPassword: "calbert")
-print("========")
-
-// Make another deposit
 myAccount.makeDeposit(ofAmount: 1000)
-print("========")
-
-// Check balance
 myAccount.displayBalance(usingPassword: "calbert")
-print("========")
-
-// Withdraw cash
 myAccount.makeWithdrawal(ofAmount: 600, password: "calbert")
-print("========")
-
-// Check balance
 myAccount.displayBalance(usingPassword: "calbert")
 
 
