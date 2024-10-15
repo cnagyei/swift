@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		2E2571F92CBC811E0016F0F6 /* swiftUI_practiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2571F82CBC811E0016F0F6 /* swiftUI_practiceApp.swift */; };
-		2E2571FB2CBC811E0016F0F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2571FA2CBC811E0016F0F6 /* ContentView.swift */; };
+		2E2571FB2CBC811E0016F0F6 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2571FA2CBC811E0016F0F6 /* GameView.swift */; };
 		2E2571FD2CBC81230016F0F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E2571FC2CBC81230016F0F6 /* Assets.xcassets */; };
 		2E2572002CBC81230016F0F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E2571FF2CBC81230016F0F6 /* Preview Assets.xcassets */; };
 		2E25720B2CBC81230016F0F6 /* swiftUI_practiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E25720A2CBC81230016F0F6 /* swiftUI_practiceTests.swift */; };
 		2E2572162CBC81230016F0F6 /* swiftUI_practiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2572152CBC81230016F0F6 /* swiftUI_practiceUITests.swift */; };
 		2E2572272CBC815E0016F0F6 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2572262CBC815E0016F0F6 /* Question.swift */; };
 		2E2E1CF02CBE72AC00E7C5A1 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2E1CEF2CBE72AC00E7C5A1 /* Game.swift */; };
+		2E2E1D472CBED90600E7C5A1 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2E1D462CBED90600E7C5A1 /* WelcomeView.swift */; };
+		2E2E1D4F2CBEDF1A00E7C5A1 /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2E1D4E2CBEDF1A00E7C5A1 /* GameColor.swift */; };
+		2E2E1D542CBEE20800E7C5A1 /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2E1D532CBEE20800E7C5A1 /* BottomTextView.swift */; };
 		2E3CD5042CBD6FFE00508566 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3CD5032CBD6FFE00508566 /* ChoiceTextView.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +41,7 @@
 /* Begin PBXFileReference section */
 		2E2571F52CBC811E0016F0F6 /* swiftUI-practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftUI-practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E2571F82CBC811E0016F0F6 /* swiftUI_practiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUI_practiceApp.swift; sourceTree = "<group>"; };
-		2E2571FA2CBC811E0016F0F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2E2571FA2CBC811E0016F0F6 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		2E2571FC2CBC81230016F0F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E2571FF2CBC81230016F0F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2E2572012CBC81230016F0F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +53,9 @@
 		2E2572172CBC81230016F0F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E2572262CBC815E0016F0F6 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		2E2E1CEF2CBE72AC00E7C5A1 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		2E2E1D462CBED90600E7C5A1 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		2E2E1D4E2CBEDF1A00E7C5A1 /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
+		2E2E1D532CBEE20800E7C5A1 /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
 		2E3CD5032CBD6FFE00508566 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,8 +155,11 @@
 		2E2E1CF72CBE739300E7C5A1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2E2571FA2CBC811E0016F0F6 /* ContentView.swift */,
+				2E2571FA2CBC811E0016F0F6 /* GameView.swift */,
 				2E3CD5032CBD6FFE00508566 /* ChoiceTextView.swift */,
+				2E2E1D462CBED90600E7C5A1 /* WelcomeView.swift */,
+				2E2E1D4E2CBEDF1A00E7C5A1 /* GameColor.swift */,
+				2E2E1D532CBEE20800E7C5A1 /* BottomTextView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -285,8 +294,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E2572272CBC815E0016F0F6 /* Question.swift in Sources */,
+				2E2E1D472CBED90600E7C5A1 /* WelcomeView.swift in Sources */,
 				2E2E1CF02CBE72AC00E7C5A1 /* Game.swift in Sources */,
-				2E2571FB2CBC811E0016F0F6 /* ContentView.swift in Sources */,
+				2E2571FB2CBC811E0016F0F6 /* GameView.swift in Sources */,
+				2E2E1D542CBEE20800E7C5A1 /* BottomTextView.swift in Sources */,
+				2E2E1D4F2CBEDF1A00E7C5A1 /* GameColor.swift in Sources */,
 				2E3CD5042CBD6FFE00508566 /* ChoiceTextView.swift in Sources */,
 				2E2571F92CBC811E0016F0F6 /* swiftUI_practiceApp.swift in Sources */,
 			);
