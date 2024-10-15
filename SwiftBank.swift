@@ -2,6 +2,12 @@
 
 // Bank struct
 struct SwiftBank {
+
+
+  // Bonus rate type property
+  static let depositBonusRate = 0.01
+
+  // Password property
   private let password: String
 
   // Initializer
@@ -31,9 +37,6 @@ struct SwiftBank {
       }
     }
   }
-
-  // Bonus rate type property
-  static let depositBonusRate = 0.01
 
 // Bonus calculator method
   private func finalDepositWithBonus(fromInitialDeposit deposit: Double) -> Double {
