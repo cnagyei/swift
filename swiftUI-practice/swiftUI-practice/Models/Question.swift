@@ -19,7 +19,7 @@ struct Question: Hashable { // Add Hashable Conformance
                     "Linux Torvalds",
                     "Tim Berners-Lee"
                  ],
-                 correctAnswerIndex: 3),
+                 correctAnswerIndex: 2),
         Question(questionText: "What was the first object oriented programming language?",
                  possibleAnswers:[
                     "Simula",

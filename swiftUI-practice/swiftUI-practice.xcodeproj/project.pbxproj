@@ -14,6 +14,8 @@
 		2E25720B2CBC81230016F0F6 /* swiftUI_practiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E25720A2CBC81230016F0F6 /* swiftUI_practiceTests.swift */; };
 		2E2572162CBC81230016F0F6 /* swiftUI_practiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2572152CBC81230016F0F6 /* swiftUI_practiceUITests.swift */; };
 		2E2572272CBC815E0016F0F6 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2572262CBC815E0016F0F6 /* Question.swift */; };
+		2E2C98192CBFE79F006B7D29 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2C98182CBFE79F006B7D29 /* GameViewModel.swift */; };
+		2E2C981E2CC00F68006B7D29 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2C981D2CC00F68006B7D29 /* QuestionView.swift */; };
 		2E2E1CF02CBE72AC00E7C5A1 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2E1CEF2CBE72AC00E7C5A1 /* Game.swift */; };
 		2E2E1D472CBED90600E7C5A1 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2E1D462CBED90600E7C5A1 /* WelcomeView.swift */; };
 		2E2E1D4F2CBEDF1A00E7C5A1 /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2E1D4E2CBEDF1A00E7C5A1 /* GameColor.swift */; };
@@ -52,6 +54,8 @@
 		2E2572152CBC81230016F0F6 /* swiftUI_practiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUI_practiceUITests.swift; sourceTree = "<group>"; };
 		2E2572172CBC81230016F0F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E2572262CBC815E0016F0F6 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		2E2C98182CBFE79F006B7D29 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		2E2C981D2CC00F68006B7D29 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		2E2E1CEF2CBE72AC00E7C5A1 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		2E2E1D462CBED90600E7C5A1 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		2E2E1D4E2CBEDF1A00E7C5A1 /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
@@ -107,9 +111,9 @@
 		2E2571F72CBC811E0016F0F6 /* swiftUI-practice */ = {
 			isa = PBXGroup;
 			children = (
+				2E2571F82CBC811E0016F0F6 /* swiftUI_practiceApp.swift */,
 				2E2E1CF42CBE72EE00E7C5A1 /* Models */,
 				2E2E1CF72CBE739300E7C5A1 /* Views */,
-				2E2571F82CBC811E0016F0F6 /* swiftUI_practiceApp.swift */,
 				2E2571FC2CBC81230016F0F6 /* Assets.xcassets */,
 				2E2572012CBC81230016F0F6 /* Info.plist */,
 				2E2571FE2CBC81230016F0F6 /* Preview Content */,
@@ -143,6 +147,14 @@
 			path = "swiftUI-practiceUITests";
 			sourceTree = "<group>";
 		};
+		2E2C98172CBFE73D006B7D29 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2E2C98182CBFE79F006B7D29 /* GameViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		2E2E1CF42CBE72EE00E7C5A1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +172,8 @@
 				2E2E1D462CBED90600E7C5A1 /* WelcomeView.swift */,
 				2E2E1D4E2CBEDF1A00E7C5A1 /* GameColor.swift */,
 				2E2E1D532CBEE20800E7C5A1 /* BottomTextView.swift */,
+				2E2C981D2CC00F68006B7D29 /* QuestionView.swift */,
+				2E2C98172CBFE73D006B7D29 /* ViewModels */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -293,6 +307,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E2C981E2CC00F68006B7D29 /* QuestionView.swift in Sources */,
+				2E2C98192CBFE79F006B7D29 /* GameViewModel.swift in Sources */,
 				2E2572272CBC815E0016F0F6 /* Question.swift in Sources */,
 				2E2E1D472CBED90600E7C5A1 /* WelcomeView.swift in Sources */,
 				2E2E1CF02CBE72AC00E7C5A1 /* Game.swift in Sources */,
