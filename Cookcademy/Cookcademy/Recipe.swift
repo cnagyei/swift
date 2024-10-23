@@ -16,10 +16,10 @@ struct Recipe {
         self.mainInformation = mainInformation
         self.ingredients = ingredients
         self.directions = directions
-        
-        init() {
-            self.init(mainInformation: MainInformation(name: "", description: "", author: "", Category: .breakfast), ingredients: [], directions: [])
         }
+    
+    init() {
+        self.init(mainInformation: MainInformation(name: "", description: "", author: "", category: .breakfast), ingredients: [], directions: [])
     }
 }
 
