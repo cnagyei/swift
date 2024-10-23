@@ -18,7 +18,7 @@ struct Recipe {
         self.directions = directions
         
         init() {
-            self.init(mainInformation: <#T##MainInformation#>(name: "", description: "", author: "", Category: .breakfast), ingredients: [], directions: [])
+            self.init(mainInformation: MainInformation(name: "", description: "", author: "", Category: .breakfast), ingredients: [], directions: [])
         }
     }
 }
