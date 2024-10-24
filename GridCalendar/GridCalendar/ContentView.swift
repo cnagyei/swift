@@ -57,12 +57,16 @@ struct ContentView: View {
     
     var body: some View {
         ScrollView {
-            LazyVGrid(columns: layout) {
-                ForEach(year[0].days) { day in
-                    Capsule()
-                        .overlay(Text("\(day.value)").foregroundColor(.white))
-                        .foregroundColor(.blue)
-                        .frame(height: 40)
+            LazyVGrid(columns: layout, pinnedViews: [.sectionHeaders]) {
+                ForEach(year, id: \.name) { month in
+                    Section(header: Text(verbatim: month.name).font(.headline)) {
+                        ForEach(month.days) { day in
+                            Capsule()
+                                .overlay(Text("\(day.value)").foregroundColor(.white))
+                                .foregroundColor(.blue)
+                                .frame(height: 40)
+                        }
+                    }
                 }
             }
         }
