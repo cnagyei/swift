@@ -22,5 +22,4 @@ print(transform(strings: strings) { words in
 })
 
 // Call with shorthand argument names
-print(transform(strings: strings) { String($0.reversed())
-})
+print(transform(strings: strings) { String($0.reversed())})
