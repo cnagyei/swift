@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E37FCE8C-0455-49BD-93BD-3B317EE0AE0E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "621D2FAF-0E80-4C64-AD8F-03F0371FF579"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cookcademy/Views/ModifyRecipes/ModifyIngredientView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "621D2FAF-0E80-4C64-AD8F-03F0371FF579 - 977090994e28b1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Spacer, SwiftUI.Text)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.listRowBackground&lt;A where A1: SwiftUI.View&gt;(Swift.Optional&lt;A1&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.listRowBackground&lt;A where A1: SwiftUI.View&gt;(Swift.Optional&lt;A1&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.pickerStyle&lt;A where A1: SwiftUI.PickerStyle&gt;(A1) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.listRowBackground&lt;A where A1: SwiftUI.View&gt;(Swift.Optional&lt;A1&gt;) -&gt; some&gt;&gt;.0)&gt; in Cookcademy.ModifyIngredientView.body.getter : some"
+                  moduleName = "Cookcademy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cal/Desktop/swift/Cookcademy/Cookcademy/Views/ModifyRecipes/ModifyIngredientView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1726">
+               </Location>
+               <Location
+                  uuid = "621D2FAF-0E80-4C64-AD8F-03F0371FF579 - 80212337d6e211d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Cookcademy.Ingredient.Unit&gt;, Cookcademy.Ingredient.Unit, SwiftUI.Text&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.listRowBackground&lt;A where A1: SwiftUI.View&gt;(Swift.Optional&lt;A1&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.listRowBackground&lt;A where A1: SwiftUI.View&gt;(Swift.Optional&lt;A1&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.pickerStyle&lt;A where A1: SwiftUI.PickerStyle&gt;(A1) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.listRowBackground&lt;A where A1: SwiftUI.View&gt;(Swift.Optional&lt;A1&gt;) -&gt; some&gt;&gt;.0)&gt; in Cookcademy.ModifyIngredientView.body.getter : some"
+                  moduleName = "Cookcademy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cal/Desktop/swift/Cookcademy/Cookcademy/Views/ModifyRecipes/ModifyIngredientView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "127">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
