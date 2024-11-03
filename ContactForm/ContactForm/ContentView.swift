@@ -17,6 +17,8 @@ struct ContentView: View {
     
     @State private var preferredContactMethod = ContactMethod.email
     
+    private var subjectOptions = ["Help", "Suggestion", "Bug Report", "Feedback"]
+    
     enum ContactMethod {
         case email, phone
     }
@@ -39,7 +41,7 @@ struct ContentView: View {
                 }
                 Section(header: Text("What can we help you with")) {
                     Picker("Subject", selection: $subject) {
-                        ForEach(["Help", "Suggestion", "Bug Report"], id: \.self) { subject in
+                        ForEach(subjectOptions, id: \.self) { subject in
                             Text(subject)
                         }
                     }
