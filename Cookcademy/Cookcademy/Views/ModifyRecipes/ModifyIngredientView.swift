@@ -11,6 +11,12 @@ struct ModifyIngredientView: View {
     
     @Binding var ingredient: Ingredient
     let createAction: ((Ingredient) -> Void)
+    
+    init(component: Binding<Ingredient>, createAction: @escaping (Ingredient) -> Void) {
+        self._ingredient = component
+        self.createAction = createAction
+    }
+    
     @Environment(\.presentationMode) private var mode
     
     private let listBackgroundColor = AppColor.background
@@ -62,13 +68,13 @@ extension NumberFormatter {
 }
 
 struct ModifyIngredientView_Previews: PreviewProvider {
-    @State static var emptyIngredient = Ingredient()
+    @State static var emptyIngredient = Recipe.testRecipes[0].ingredients[0]
     
     static var previews: some View {
         NavigationView {
-            ModifyIngredientView(ingredient: $emptyIngredient) { ingredient in
+            ModifyIngredientView(component: $emptyIngredient) { ingredient in
                 print(ingredient)
             }
-        }
+        }.navigationTitle("Add Ingredient")
     }
 }

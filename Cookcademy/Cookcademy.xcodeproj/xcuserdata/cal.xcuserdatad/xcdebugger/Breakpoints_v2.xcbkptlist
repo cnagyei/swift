@@ -14,42 +14,74 @@
             filePath = "Cookcademy/Views/ModifyRecipes/ModifyIngredientView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "body"
             landmarkType = "24">
             <Locations>
                <Location
-                  uuid = "621D2FAF-0E80-4C64-AD8F-03F0371FF579 - 977090994e28b1b"
+                  uuid = "621D2FAF-0E80-4C64-AD8F-03F0371FF579 - 8940e853a4af78ec"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #2 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Spacer, SwiftUI.Text)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.listRowBackground&lt;A where A1: SwiftUI.View&gt;(Swift.Optional&lt;A1&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.listRowBackground&lt;A where A1: SwiftUI.View&gt;(Swift.Optional&lt;A1&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.pickerStyle&lt;A where A1: SwiftUI.PickerStyle&gt;(A1) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.listRowBackground&lt;A where A1: SwiftUI.View&gt;(Swift.Optional&lt;A1&gt;) -&gt; some&gt;&gt;.0)&gt; in Cookcademy.ModifyIngredientView.body.getter : some"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.listRowBackground&lt;A where A1: SwiftUI.View&gt;(Swift.Optional&lt;A1&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.listRowBackground&lt;A where A1: SwiftUI.View&gt;(Swift.Optional&lt;A1&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.pickerStyle&lt;A where A1: SwiftUI.PickerStyle&gt;(A1) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.listRowBackground&lt;A where A1: SwiftUI.View&gt;(Swift.Optional&lt;A1&gt;) -&gt; some&gt;&gt;.0)&gt; in Cookcademy.ModifyIngredientView.body.getter : some"
                   moduleName = "Cookcademy"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/cal/Desktop/swift/Cookcademy/Cookcademy/Views/ModifyRecipes/ModifyIngredientView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "1726">
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "4248">
                </Location>
                <Location
-                  uuid = "621D2FAF-0E80-4C64-AD8F-03F0371FF579 - 80212337d6e211d7"
+                  uuid = "621D2FAF-0E80-4C64-AD8F-03F0371FF579 - 49d2bb239528746"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #3 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Cookcademy.Ingredient.Unit&gt;, Cookcademy.Ingredient.Unit, SwiftUI.Text&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.listRowBackground&lt;A where A1: SwiftUI.View&gt;(Swift.Optional&lt;A1&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.listRowBackground&lt;A where A1: SwiftUI.View&gt;(Swift.Optional&lt;A1&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.pickerStyle&lt;A where A1: SwiftUI.PickerStyle&gt;(A1) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.listRowBackground&lt;A where A1: SwiftUI.View&gt;(Swift.Optional&lt;A1&gt;) -&gt; some&gt;&gt;.0)&gt; in Cookcademy.ModifyIngredientView.body.getter : some"
+                  symbolName = "closure #4 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Spacer, SwiftUI.Button&lt;SwiftUI.Text&gt;, SwiftUI.Spacer)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.listRowBackground&lt;A where A1: SwiftUI.View&gt;(Swift.Optional&lt;A1&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.listRowBackground&lt;A where A1: SwiftUI.View&gt;(Swift.Optional&lt;A1&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.pickerStyle&lt;A where A1: SwiftUI.PickerStyle&gt;(A1) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.listRowBackground&lt;A where A1: SwiftUI.View&gt;(Swift.Optional&lt;A1&gt;) -&gt; some&gt;&gt;.0)&gt; in Cookcademy.ModifyIngredientView.body.getter : some"
                   moduleName = "Cookcademy"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/cal/Desktop/swift/Cookcademy/Cookcademy/Views/ModifyRecipes/ModifyIngredientView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
-                  offsetFromSymbolStart = "127">
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "288">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F024456-8D1F-49B4-9A81-8F47EB2D0ADE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cookcademy/Models/Recipe.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "Ingredient"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "32BED70D-2388-42E3-8C51-017E903CE10D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cookcademy/Views/ModifyRecipes/ModifyDirectionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "ModifyDirectionView_Previews"
+            landmarkType = "14">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
