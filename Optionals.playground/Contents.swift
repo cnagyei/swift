@@ -49,4 +49,24 @@ if let num1 = num1 {
     }
 }
 
+// Guard statements
+// To avoid overly nested code
+func greetUser(isAuthenticated: Bool) {
+    guard isAuthenticated else {
+        print("Error: user is not authenticated")
+        return
+    }
+    print("Hello user!")
+}
 
+greetUser(isAuthenticated: false)
+
+// To exit the scope of loops
+var nums = [3, 1, 0, 6]
+for num in nums {
+    guard num != 0 else {
+        print("Can't divide by zero!")
+        continue
+    }
+    print("10 / \(num) = \(10 / num)")
+}
