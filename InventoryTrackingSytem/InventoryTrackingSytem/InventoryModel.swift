@@ -7,6 +7,10 @@
 
 import Foundation
 
+// Welcome page
+print("Welcome to the IoT Automated Inventory Tracking System")
+print("True Factory Ltd.")
+
 // Create product
 struct Product {
     var name: String
